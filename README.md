@@ -14,7 +14,7 @@ This fork was made with the purpose of playing around with Create Aeronautics on
 Also please keep in mind that I kinda suck at Java at the moment and there are probably a bunch of things wrong in this repo.
 
 # Building
-If you want to build this repo for yourself, use the builtin `./gradlew build` (or just `./gradlew bundleJar`). The outputted jar can be in `build/libs`
+If you want to build this repo for yourself, use the builtin `./gradlew build` (or just `./gradlew bundleJar`). The outputted jar can be found in `build/libs`
 
 # Building ReplayStudio (Not Required)
 If you want to make changes to ReplayStudio (the nested mod that handles replay files, located in `libs`) then you must compile replay studio
