@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "de.maxhenkel.replayvoicechat.mixin",
+  "mixins": [],
+  "server": [],
+  "client": [
+    "ClientManagerMixin",
+    "ClientPlayerStateManagerMixin",
+    "ClientVoicechatAccessor",
+    "ClientVoicechatMixin",
+    "GroupChatManagerMixin",
+    "InitializationDataMixin",
+    "RenderEventsMixin"
+  ],
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8"
+}

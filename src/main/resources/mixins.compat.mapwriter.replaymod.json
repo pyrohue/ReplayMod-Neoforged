@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "package": "com.replaymod.compat.mapwriter.mixin",
+  "mixins": [],
+  "server": [],
+  "client": [],
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.6.11"
+}

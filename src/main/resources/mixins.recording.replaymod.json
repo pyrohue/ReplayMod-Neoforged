@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "com.replaymod.recording.mixin",
+  "mixins": [],
+  "server": [],
+  "client": [
+    "AddServerScreenAccessor",
+    "ClientLoginNetworkHandlerAccessor",
+    "DecoderHandlerAccessor",
+    "EntityLivingBaseAccessor",
+    "IntegratedServerAccessor",
+    "NetworkManagerAccessor",
+    "MixinClientConnection",
+    "MixinServerInfo",
+    "MixinDownloadingPackFinder",
+    "MixinMouseHelper",
+    "MixinWorldClient",
+    "MixinNetHandlerConfigClient",
+    "MixinNetHandlerLoginClient",
+    "MixinNetHandlerPlayClient",
+    "MixinRenderGlobal",
+    "Mixin_NeoSync"
+  ],
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.6.11"
+}

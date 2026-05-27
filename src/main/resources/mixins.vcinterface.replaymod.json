@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "xyz.breadloaf.replaymodinterface.mixin",
+  "mixins": [],
+  "server": [],
+  "client": [
+    "FullReplaySenderMixin",
+    "ReplayHandlerMixin",
+    "VideoRendererMixin",
+    "accessor.ConnectionEventHandlerAccessor",
+    "accessor.FullReplaySenderAccessor",
+    "accessor.GuiPathingAccessor",
+    "accessor.ReplayHandlerAccessor",
+    "accessor.VideoRendererAccessor"
+  ],
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8"
+}
