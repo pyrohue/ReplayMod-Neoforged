@@ -45,7 +45,7 @@ side = "BOTH"
 
 [[dependencies.replaymod]]
 modId = "connector"
-type="optional"
+type="required"
 versionRange = "2.0.0"
 ordering = "BEFORE"
 side = "CLIENT"
@@ -87,8 +87,8 @@ config = "mixins.render.replaymod.json"
 [[mixins]]
 config = "mixins.replay.replaymod.json"
 
-[[mixins]]
-config = "mixins.voicechat.replaymod.json"
+#[[mixins]]
+#config = "mixins.voicechat.replaymod.json"
 
-[[mixins]]
-config = "mixins.vcinterface.replaymod.json"
+#[[mixins]]
+#config = "mixins.vcinterface.replaymod.json"

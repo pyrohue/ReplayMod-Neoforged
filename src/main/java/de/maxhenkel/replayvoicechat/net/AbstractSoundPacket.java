@@ -27,6 +27,14 @@ public abstract class AbstractSoundPacket<T extends Packet<T>>
 
 	}
 
+	/*public static final StreamCodec<PacketByteBuf, AbstractSoundPacket> STREAM_CODEC = StreamCodec.composite(
+			ByteBufCodecs.STRING_UTF8,
+			MyData::name,
+			ByteBufCodecs.VAR_INT,
+			MyData::age,
+			MyData::new
+	);*/
+
 	public UUID getPacketId()
 	{
 		return id;

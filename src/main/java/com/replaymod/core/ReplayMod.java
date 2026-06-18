@@ -37,8 +37,6 @@ import java.util.concurrent.TimeoutException;
 import net.minecraft.resource.ResourcePackInfo;
 import net.minecraft.resource.ResourcePackSource;
 import net.minecraft.text.Text;
-import xyz.breadloaf.replaymodinterface.ReplayInterface;
-import xyz.breadloaf.replaymodinterface.modules.VoicechatModule;
 
 import java.util.Optional;
 // #endif
@@ -121,8 +119,8 @@ public class ReplayMod implements Module, Scheduler
 		modules.add(new ReplayModEditor(this));
 		modules.add(new ReplayModExtras(this));
 		modules.add(new ReplayModCompat());
-		modules.add(new VoicechatModule());
-		new ReplayInterface();
+		// modules.add(new VoicechatModule());
+		// new ReplayInterface();
 
 		settingsRegistry.register();
 	}
